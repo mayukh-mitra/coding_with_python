@@ -6,7 +6,7 @@ from pymongo.server_api import ServerApi
 import mongodb_atlas_constants as constants
 
 
-username, password = "admin", "password"
+username, password = "admin", "password" # Replace with your own credentials
 
 uri = constants.MONGODB_ATLAS_ADMIN_URL.format(username=username, password=password)
 
